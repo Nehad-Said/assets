@@ -1,4 +1,4 @@
-.body{
+/* .body{
 background: #F0F0F6;
 position: relative;
 }
@@ -78,4 +78,33 @@ top: 995px;
   }
   .footer{
     text-align: center;
+  } */
+  .telephone,
+  .location{
+    display:flex;
+    justify-content: space-between;
+    width: 370px;
+    height: 210px;
+    left: 720px;
+    top: 2574px;
+    background: #FFFFFF;
+    margin: 120;
   }
+  .contact{
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    height: 210px;
+    left: 720px;
+    top: 2802px;
+    background-color: #FFFFFF;
+    margin: 120;
+  }
+  div.your_info{
+    background-color: #FFFFFF;
+    padding: 24px;
+    margin:30px;
+  }
+  
+
+  
