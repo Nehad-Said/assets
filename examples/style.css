@@ -1,110 +1,184 @@
-/* .body{
-background: #F0F0F6;
-position: relative;
+body {
+  background: #E5E5E5;
+  margin: 0;
+  padding: 0;
 }
-.main-text{
-    color: orange;
+
+div.first {
+  display: flex;
+  background-color: #FFFFFF;
+  padding: 0 71px;
+  align-items: center;
+}
+
+div.first div#left {
+  flex: 1;
+}
+
+div.first div#left div#left-heading {
+  margin-bottom: 25px;
+}
+
+div.first div#left div#left-details {
+  margin-bottom: 30px;
+}
+
+div#left h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+div#left-actions button {
+  background-color: orange;
+  padding: 10px 12px;
+  border: none;
+  vertical-align: middle;
+}
+div#left-actions button:hover{
+  cursor: pointer;
+  background-color: coral;
+}
+
+div#info_services {
+  display: flex;
+  flex-direction: column;
 
 }
-p{
-    position: relative;
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-    background-position: 200px 200px;
-    background-image: url(../images/background\ icons.jpeg);
-    background-size: cover;
+div#info_services #first_align{
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 123.6%;
 }
-.divi{
+div#info_services #second_align{
+  text-align: center;
+}
+
+div#all_services{
+  display: flex;
+}
+div#all_services div#services_options{
+padding:15px;
+margin-right:16px;
+background-color: #FFFFFF;
+width: 310px;
+
+
+}
+div#all_services div#services_options div#option1_img{
+  text-align: center;
+  margin-bottom: 12px;
+  height: 50px;
+  width:50px;
+ 
+}
+
+
+div#info_portfolio {
+  display: flex;
+  flex-direction: column;
+}
+div#info_portfolio #info_port1{
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 123.6%;
+}
+div#info_portfolio #info_port2{
+  text-align: center;
+}
+.body {
+  background: #F0F0F6;
   position: relative;
-  left:100px;
-  top:5px;
-  bottom: 100px;
-}
-.center{
-    text-align: center;
 }
 
-.web{
-  position: absolute;
-  width: 310px;
-  height: 225px;
-  left: 120px;
-  top: 719px;
-  background: #FFFFFF;
-  margin: 20px;
-  border: 10px;
-  padding: 15px;
+div#main {
+  padding: 5%
 }
 
-
-.button{
-    position: relative;
-    left: 100px;
-    padding: 8px;
-    margin: 10px 5px;
-    font-size: 10px;
-    background-color: orange;
-    border: none;
+div#info-contact {
+  display: flex;
+  align-items: stretch;
 }
-.advertising{
-  position: absolute;
-width: 99px;
-height: 22px;
-left: 885px;
-top: 995px;
 
+div#info-contact .your_info {
+  background-color: white;
+  padding: 3%;
 }
-.button:hover{
-    background-color: coral;
+
+div#info-contact #info {
+  margin-right: 25px;
+  flex-basis: 70%;
 }
-.grid-container {
-    display: grid;
-    align-content: center;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
 
-    padding: 10px;
-  }
-  .hoverphoto{
-    background-color: orange;
-    border: none;
-    opacity: 30%;
-  }
-  .hoverphoto:hover{
-    background-color: coral;
-  }
-  .footer{
-    text-align: center;
-  } */
-  .telephone,
-  .location{
-    display:flex;
-    justify-content: space-between;
-    width: 370px;
-    height: 210px;
-    left: 720px;
-    top: 2574px;
-    background: #FFFFFF;
-    margin: 120;
-  }
-  .contact{
-    display: flex;
-    justify-content: space-between;
-    width: 370px;
-    height: 210px;
-    left: 720px;
-    top: 2802px;
-    background-color: #FFFFFF;
-    margin: 120;
-  }
-  div.your_info{
-    background-color: #FFFFFF;
-    padding: 24px;
-    margin:30px;
-  }
-  
+div#info div.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px
+}
 
-  
+div#info div.input-field label {
+  line-height: 0px;
+}
+
+div#info div.input-field input{
+  width: 100%;
+  height: 42px;
+  background-color: rgb(243, 238, 238);
+  outline: 0;
+  border: none;
+}
+
+div#info div.input-field textarea{
+  width: 100%;
+  height: 150px;
+  background-color: rgb(243, 238, 238)
+}
+
+div#info-contact #info button {
+  background-color: orange;
+  outline: 0;
+  border: none;
+  font-size: 1.1rem;
+  padding: 7px 16px;
+}
+
+div#info-contact #info button:hover {
+  cursor: pointer;
+  background-color: coral;
+}
+
+div#info-contact #contact {
+  flex-basis: 30%
+}
+
+div.contact-item {
+  background-color: white;
+  margin-bottom: 16px;
+  padding: 25px;
+}
+
+div.contact-item div.image {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+div.contact-item div.image img {
+  background-color: orange;
+  border-radius: 50%;
+  padding: 9px;
+}
+
+div.contact-item div.content > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+div.contact-item div.content > div a {
+  color: black;
+}
